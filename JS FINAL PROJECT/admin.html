@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Vote poling website</title>
+        <script src="https://kit.fontawesome.com/79b594a165.js" crossorigin="anonymous"></script>
+       <link href="style.css" rel="stylesheet" type="text/css"/>
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&family=Roboto:ital,wght@0,100;1,900&family=Space+Mono:wght@700&display=swap" rel="stylesheet">
+    </head>
+    <body id="adminLogPage">
+        <div id="adminContainer">
+            <a href="index1.html"><button id="backAdLog"><i class="fa-solid fa-xmark"></i></button></a> 
+            <h1>Admin</h1>
+            <input type="text" value="" placeholder="Name" id="adminName" class="adminInp">
+            <input type="number" value="" placeholder="Mobile No." id="adminNo" class="adminInp">
+            <input type="password" value="" placeholder="Password" id="adminPassword" class="adminInp">
+            <button onclick="adminLogin()" id="adminLoginBut">Login</button>
+            <div id="adminAnsBox"><p id="adminAns"></p></div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

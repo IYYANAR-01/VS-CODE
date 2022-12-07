@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Vote poling website</title>
+        <script src="https://kit.fontawesome.com/79b594a165.js" crossorigin="anonymous"></script>
+       <link href="style.css" rel="stylesheet" type="text/css"/>
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&family=Roboto:ital,wght@0,100;1,900&family=Space+Mono:wght@700&display=swap" rel="stylesheet">
+    </head>
+    <body id="userLogPage">
+        <div id="insIconDiv"><i id="insIcon" class="fa-solid fa-circle-info"></i></div>
+        <div id="instructDiv">   <div id="instDivHide"><i class="fa-solid fa-xmark"></i></div>
+            <pre id="insFont">
+                            Instructions
+
+
+  Name          :  Above 3 characters
+
+
+  Mobile No : 10 digits only
+
+
+  Password  : 1) 1 capital letter
+                         2) 1 intiger
+                         3) 1 special character
+                         4) 8-16 characters
+
+
+  voter Id     :    Name + 1st 5 digits of the 
+                            mobile no.
+            </pre>
+        </div>
+        <div id="userContainer">
+            <a href="index1.html"><button id="backAdLog"><i class="fa-solid fa-xmark"></i></button></a> 
+            <h1 id="userHead">User</h1>
+            <input type="number" value="" placeholder="Mobile No." id="userlogNo" class="adminInp">
+            <input type="password" value="" placeholder="Password" id="userlogPassword" class="adminInp">
+            <button onclick="userLogin()" id="userLogin">Login</button>
+            <h3 id="newUser">New user? <button onclick="regisHere()">Register here</button></h3> 
+            <!-- <div id="userAnsBox"><p id="userAns"></p></div> -->
+            
+        </div>
+
+        <div id="regisContainer">
+            <h1>User Register</h1>
+            <input type="text" value="" placeholder="Name" id="userName" class="adminInp">
+            <input type="number" value="" placeholder="Mobile No." id="userNumber" class="adminInp">
+            <input type="password" value="" placeholder="Set password" id="userPassword" class="adminInp">
+            <input type="text" value="" placeholder="Voter ID" id="userVoterId" class="adminInp">
+            <button onclick="register()" id="registerBut">Register</button>
+            <h3>Already registered? <button onclick="logHere()">Login here</button></h3> 
+            <!-- <div id="regisAnsBox"><p id="regisAns"></p></div> -->
+        </div>
+
+
+        <script src="script.js"></script>
+    </body>
+</html>

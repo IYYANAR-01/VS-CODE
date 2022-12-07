@@ -1,0 +1,879 @@
+
+/* \\opening page..........................\\ */
+html, body {
+    height: 99%;
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+    /* background-color: #c3c3c3; */
+}
+#main{
+    height:180px;
+    width:105%;
+    background-color:#1DC6AA;
+    margin:-35px 0px 0px 0px;
+}
+#head1{
+    text-align: center;
+    color: white;
+    padding-top:80px ;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 800;
+    font-size: 50px;
+}
+#head12{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 800;
+    font-size: 80px;
+    margin:100px 0px 0px 320px;
+}
+#login{
+    height:80px;
+    width:180px;
+    background-color:#1DC6Aa;
+    margin-left: 1500px;
+    color: white;
+    font-size: 30px;
+    border-radius: 50px;
+    border: 4px solid black;
+}
+#logo{
+    margin: 50px 0px 0px 750px;
+}
+
+
+
+
+
+
+
+/* \\login page........................\\ */
+
+.back{
+    height:80px;
+    width:180px;
+    background-color:#1DC6Aa;
+    color: white;
+    font-size: 30px;
+    border-radius: 50px;
+    border: 4px solid black;
+    float: left;
+    margin:60px 0px 0px 60px;
+}
+#head2{
+    text-align: center;
+    margin: 70px 0px 0px 650px;
+    color: white;
+    float: left;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 800;
+    font-size: 50px;
+}
+.log{
+    background-color: #1DC6AA;
+    height:320px;
+    width:320px;
+    float: left;
+    margin-left:430px;
+    border-radius: 30px;
+}
+#logText{
+    height:280px;
+    width:100%;
+    font-family: 'Ubuntu', sans-serif;
+}
+#sub1{
+    padding: 180px 0px 0px 490px;
+    float: left;
+}
+#sub2{
+    padding: 180px 0px 0px 580px;
+    float: left;
+}
+#adminBut{
+    background: none;
+    border: none;
+ }
+
+
+
+
+
+
+
+/* admin log page......................... */
+#adminLogPage{
+    background-color: #1DC6AA;
+    overflow: hidden;
+}
+#adminContainer{
+    background-color: #fff;
+    height: 800px;
+    width:700px;
+    margin: auto;
+    margin-top: 120px;
+    border-radius: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.adminInp{
+    height: 50px;
+    width: 300px;
+    font-size: 20px;
+}
+#adminLoginBut{
+    height: 50px;
+    width: 120px;
+    background-color:#0a8b76 ;
+    border: #fff;
+    color: #fff;
+    border-radius: 5px;
+}
+#adminAnsBox{
+    height: 40px;
+    width: auto;
+}
+#backAdLog{
+    margin-left: 600px;
+    height: 30px;
+    width:40px;
+}
+#insIcon{
+   font-size: 50px;
+   margin: 20px 30px;
+}
+#instructDiv{
+    height: 350px;
+    width: 350px;
+    position: absolute;
+    border: 2px solid;
+    font-family: 'Ubuntu', sans-serif;
+    margin: -80px 0px 0px 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    display: none;
+}
+#instDivHide{
+    margin: 5px 5px;
+}
+#insFont{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+
+
+
+/* user log page................................ */
+
+#userLogPage{
+    background-color: #1DC6AA;
+    overflow: hidden;
+}
+#userContainer{
+    background-color: #fff;
+    height: 800px;
+    width:700px;
+    margin: auto;
+    margin-top: 120px;
+    border-radius: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+#userLogin{
+    height: 50px;
+    width: 120px;
+    background-color:#0a8b76 ;
+    border: #fff;
+    color: #fff;
+    border-radius: 5px;
+}
+#userAnsBox{
+    height: 40px;
+    width: auto;
+}
+
+
+
+
+
+
+/* register page........................... */
+
+#regisPage{
+    background-color: #1DC6AA;
+    overflow: hidden;
+}
+#regisContainer{
+    background-color: #fff;
+    height: 800px;
+    width:700px;
+    margin: auto;
+    margin-top: 120px;
+    border-radius: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+#registerBut{
+    height: 50px;
+    width: 120px;
+    background-color:#0a8b76 ;
+    border: #fff;
+    color: #fff;
+    border-radius: 5px;
+}
+#regisAnsBox{
+    height: 40px;
+    width: auto;
+}
+
+
+
+
+
+
+
+/* admin page............................. */
+
+#AdminHeadDiv{
+    width: 100%;
+    height: 150px;
+    border: 1px solid black;
+
+}
+#eciAdminPic{
+    height:180px;
+    width:500px;
+    margin-left: 680px;
+    float: left;
+}
+#adminLogout{
+    float: left;
+    height: 50px;
+    width:150px;
+    background-color:#1DC6AA;
+    border: #fff;
+    border-radius: 50px;
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    margin: 55px 0px 0px 500px;
+}
+#emblom{
+    margin: 80px 0px 0px 700px;
+}
+#republic{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+#curElect{
+    height:80px;
+    width: 280px;
+    background-color:#1DC6AA;
+    border: #fff;
+    border-radius: 50px;
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    margin: 50px 0px 0px 450px;
+}
+#newElect{
+    height:80px;
+    width: 280px;
+    background-color:#1DC6AA;
+    border: #fff;
+    border-radius: 50px;
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    margin: 50px 0px 0px 450px;
+}
+#electionTypePage{
+    height: 100%;
+    width: 100%;
+    background-color:#1DC6AA;
+    font-family: 'Ubuntu', sans-serif;
+    color: #fff;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -20px;
+}
+#parliamentBut{
+    height:100px;
+    width:500px;
+    border:#fff;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#legislativeBut{
+    height:100px;
+    width:500px;
+    border:#fff;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+#electHead{
+    height: 200px;
+    width: 100%;
+    background-color: #1DC6AA;
+    margin-top:0px;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    margin-top: -20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 60px;
+    color: #fff;
+    align-items: center;
+    font-weight: 700;
+    position: relative;
+}
+
+#addParty{
+    height: 80px;
+    width: 300px;
+    background-color: #1DC6AA;
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 600;
+    border-radius: 20px;
+    margin: 150px 0px 0px 800px;
+    box-shadow: 6px 6px 30px -4px rgba(0,0,0,0.75);
+    position: relative;
+}
+#addPartyList{
+    height: 500px;
+    width: 50%;
+    border: 1px solid black;
+    margin-top: 50px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow-y: scroll;
+    font-family: 'Ubuntu', sans-serif;
+    position: relative;
+
+
+}
+#cancelElect{
+    height: 60px;
+    width:150px;
+    background-color:#d9d9d9;
+    border: 1px solid gray;
+    border-radius: 20px;
+    color:black;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    margin: 45px 50px 0px 0px;
+    position: relative;
+}
+#startElect{
+    height: 60px;
+    width:150px;
+    background-color:#1DC6AA;
+    border-radius: 20px;
+    color:#fff;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    margin: 45px 50px 0px 0px;
+    position: relative;
+}
+
+
+
+
+
+
+
+#states{
+    height: 500px;
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    position: relative;
+}
+#cancelStates{
+    height: 60px;
+    width:150px;
+    background-color:#d9d9d9;
+    border: 1px solid gray;
+    border-radius: 20px;
+    color:black;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.state{
+    height: 80px;
+    width: 250px;
+    background-color: #fff;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+
+#popup{
+    height: 700px;
+    width: 600px;
+    background-color: #fff;
+    position: absolute;
+    margin: -650px 0px 0px 650px;
+    border:10px solid #1DC6AA;
+    border-radius: 50px;
+    box-shadow: 6px 6px 30px -4px rgba(10,10,10,10);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'Ubuntu', sans-serif;
+    display: none;
+}
+#katchiName{
+    height: 40px;
+    width: 60%;
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+}
+#leaderName{
+    height: 40px;
+    width: 60%;
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+}
+#symbol{
+    height: 40px;
+    width: 60%;
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+}
+#simbol{
+    margin-left: 80px;
+}
+#popButs{
+    width: 250px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+#addCancel{
+    height: 100%;
+    width:40%;
+    background-color: #c3c3c3;
+    border: #fff;
+    border-radius: 7px;
+}
+#addCandidate{
+    height: 100%;
+    width:40%;
+    background-color: #1DC6AA;
+    border: #fff;
+    color: #fff;
+    border-radius: 7px;
+}
+
+
+
+.removeParty{
+    float: right;
+    height: 25px;
+    width: 75px;
+}
+#pattiyal{
+    font-size: 30px;
+    font-weight: 900;
+}
+.pattiyalDiv{
+    margin-top: 25px;
+    height: 50px;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+/* current election page........................... */
+
+#curPageTop{
+    height: 180px;
+    width: 100%;
+    background-color: #1DC6AA;
+    margin-top: -30px;
+    position: relative;
+}
+#curElection{
+    color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+    position: absolute;
+    font-family: 'Ubuntu', sans-serif;
+   margin: 80px 0px 0px 750px;
+}
+#curElectHead{
+    height: 150px;
+    width: 100%;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+#view{
+    height: 80px;
+    width: 250px;
+    background-color: #1DC6AA;
+    font-family: 'Ubuntu', sans-serif;
+    color: #fff;
+    margin-left: 820px;
+    border: #fff;
+}
+#serialNoDiv{
+    height:auto;
+    width:10%;
+    border:1px solid black;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    float: left;
+}
+#partyNameDiv{
+    height:auto;
+    width:44%;
+    border:1px solid black;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    float: left;
+}
+#leaderNameDiv{
+    height:auto;
+    width:25%;
+    border:1px solid black;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    float: left;
+}
+#totalVoteDiv{
+    height:auto;
+    width:20%;
+    border:1px solid black;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    float: left;
+    margin-top: auto;
+}
+.serialDiv{
+    height: 80px;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.partyDiv{
+    height: 80px;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.leaderDiv{
+    height: 80px;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.voteDiv{
+    height: 80px;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+#regisContainer{
+    display: none;
+}
+
+
+
+
+/* voting page............ */
+
+
+#votePageHeadDiv{
+    height: 150px;
+    width: 99%;
+    background-color: #fff;
+    border-radius: 8px;
+    margin-left: 10px;
+    border: 2px solid black;
+    font-family: 'Ubuntu', sans-serif;
+}
+#headLogo{
+    height: 145px;
+    width: 145px;
+    float: left;
+    margin-left: 500px;
+}
+#votePageHead{
+    font-size:50px;
+    float: left;
+}
+#logoutBut{
+    height: 70px;
+    width:200px;
+    background-color: #1DC6AA;
+    border-radius: 40px;
+    float: left;
+    margin: 40px 0px 0px 300px;
+    color: #fff;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid black;
+}
+#userProfileDiv{
+    height: 82%;
+    width: 32%;
+    background-color: #fff;
+    border-radius: 12px;
+    margin: 27px 0px 0px 15px;
+    border: 2px solid black;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    float: left;
+    position: relative;
+}
+#profilePic{
+    height: 350px;
+    width: 350px;
+}
+#proNameDiv{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+#proNumDiv{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+#proIdDiv{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+#proStatusDiv{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+#votingDiv{
+    height: 82%;
+    width: 65%;
+    background-color: #fff;
+    float: left;
+    margin: 27px 0px 0px 15px;
+    border: 2px solid black;
+    font-family: 'Ubuntu', sans-serif;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+    position: relative;
+}
+.mains {
+    height: 220px;
+    width: 99%;
+    margin-top: 15px;
+    margin-left: 5px;
+    background-color: #fff;
+    border: 3px solid black;
+    display: flex;
+    align-items: center;
+}
+.mainTexts{
+    height: 100%;
+    width: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    float: left;
+}
+.partyDivs{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border: #fff;
+}
+.symbolDiv{
+    height: 90%;
+    width: 250px;
+    border: 2px solid black;
+    background-size: 250px 200px ;
+    background-repeat: no-repeat;
+    margin-top: 3px;
+    float: left;
+}
+.voteBox{
+    height: 40px;
+    width: 120px;
+    background-color: #1DC6AA;
+    color: #fff;
+    border-radius: 12px;
+    border: 2px solid black;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+}
+
+#NumValue{
+    font-size: 20px;
+    font-weight: 400;
+    margin: 40px;
+}
+
+
+
+
+#confirmPopup{
+    height: 380px;
+    width: 500px;
+    border: 5px solid black;
+    position: absolute;
+    margin: 300px 0px 0px 700px;
+    background-color: #fff;
+    border-radius: 25px;
+    font-size: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#confirmOption{
+    height: 70px;
+    width: 70%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+}
+#noBut{
+    height: 100%;
+    width: 40%;
+    color: #fff;
+    float: left;
+    background-color:#1DC6AA;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#yesBut{
+    height: 100%;
+    width: 40%;
+    color: #fff;
+    float: left;
+    background-color: #1DC6AA;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#successDiv{
+    height: 800px;
+    width: 1200px;
+    border: 1px solid black;
+    position: absolute;
+    margin: 70px 0px 0px 350px;
+    background-color: #fff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+}
+#ticPic{
+    height: 200px;
+    width: 200px;
+}
