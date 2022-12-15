@@ -1,0 +1,129 @@
+body{
+    background-color: #111017;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content:space-between;
+    font-family: 'Ubuntu', sans-serif;
+    overflow: hidden;
+}
+#head{
+    margin-top: 40px;
+    color: grey;
+}
+#displayBox{
+    height:100px;
+    width: 650px;
+    background-color: #24232C;
+    margin-top: 40px;
+    font-family: 'Ubuntu', sans-serif;
+}
+#displayText{
+    height: 100%;
+    width: 63%;
+    float: left;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+}
+#main{
+    height: 750px;
+    width: 650px;
+    background-color: #24232C;
+    margin-top: 40px;
+    font-family: 'Ubuntu', sans-serif;
+}
+#copyIcon{
+    color: #A4FFAF;
+    font-size: 35px;
+    float: right;
+    margin: 30px 50px;
+}
+#headLen{
+    height:90px;
+    width: 85%;
+    margin: 20px 70px;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#lenValue{
+    height: 90px;
+    width: 80px;
+    float: left;
+    color: #A4FFAF;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#rangeValue{
+    height: 40px;
+    width:80%;
+    accent-color: #A4FFAF;
+    margin: 0px 75px;
+}
+
+.checkBox{
+    height: 25px;
+    width: 25px;
+    margin: 25px 80px;
+    accent-color: #A4FFAF;
+}
+.checkText{
+    font-size: 25px;
+    color: white;
+    /* margin: 23px; */
+}
+#strengthBox{
+    height:80px;
+    width: 500px;
+    background-color: #111017;
+    margin-top: 40px;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 25px 76px;
+    color: gray;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+#strengthLevel{
+  height: 55%;
+  width:140px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.point{
+  height: 100%;
+  width:20px;
+  border: 2px solid white;
+}
+#generate{
+  height:80px;
+  width: 500px;
+  background-color: #A4FFAF;
+  margin-top: 40px;
+  font-family: 'Ubuntu', sans-serif;
+  margin: 40px 76px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 40px;
+}
+
+
+#copyIcon:hover{
+    color:white;
+}
+
+
+
+

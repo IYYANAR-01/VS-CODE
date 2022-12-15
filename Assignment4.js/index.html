@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://kit.fontawesome.com/79b594a165.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="head">Password Generator</h1>
+    <div id="displayBox">
+        <div id="displayText"></div>
+        <i id="copyIcon" class="fa-solid fa-copy copyIcon"></i></div>
+    <div id="main">
+        <div id="headLen">
+            <h2 style="float:left;">Character Length</h2>
+            <div id="lenValue"></div>
+        </div>
+
+        <input id="rangeValue" value="" type="range" oninput="length(this.value)" min="8" max="16"><br>
+
+  <input type="checkbox" class="checkBox">
+  <label for="upper" class="checkText">Include Uppercase Letters</label><br>
+  <input type="checkbox" class="checkBox">
+  <label for="lower" class="checkText">Include Lowercase Letters</label><br>
+  <input type="checkbox" class="checkBox">
+  <label for="number" class="checkText">Include Numbers</label><br>
+  <input type="checkbox" class="checkBox">
+  <label for="symbol" class="checkText">Include Symbols</label><br>
+
+  <div id="strengthBox">
+    <h1>Strength</h1>
+    <div id="strengthLevel">
+        <div id="point1" class="point"></div>
+        <div id="point2" class="point"></div>
+        <div id="point3" class="point"></div>
+        <div id="point4" class="point"></div>
+    </div>
+  </div>
+  <div id="generate">
+    Generate<i class="fa-solid fa-arrow-right"></i>
+  </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
